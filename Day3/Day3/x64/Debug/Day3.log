@@ -1,2 +1,3 @@
-﻿  ary.c
+﻿  pointer.c
+D:\Work\C\Day3\Day3\pointer.c(16,5): warning C4133: '=': 'char *'과(와) 'int *' 사이의 형식이 호환되지 않습니다.
   Day3.vcxproj -> D:\Work\C\Day3\x64\Debug\Day3.exe

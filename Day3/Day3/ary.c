@@ -1,9 +1,14 @@
-#include <stdio.h>
-
-void main() {
-
-	int arr[5];
-	for (int i = 0; i < 5; i++) {
-		printf("arr[%d]: %d\n",i, arr[i]);
-	}
-}
+//#include <stdio.h>
+//#define MAX 5
+//void main() {
+//
+//	int arr[MAX] = { 0 };
+//	for (int i = 0; i < MAX; i++) {
+//		
+//		printf("arr[%d]: %d\n",i, arr[i]);
+//	}
+//	int arr2[MAX] = { 10, 20,30,40 };
+//	for (int i = 0; i < MAX; i++) {
+//		printf("arr[%d]: %d\n", i, arr2[i]);
+//	}
+//}

@@ -18,5 +18,14 @@
     <ClCompile Include="ary.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="arr2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="multiplication.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

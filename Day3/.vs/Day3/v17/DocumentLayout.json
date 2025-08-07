@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Work\\C\\Day3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7C2242CD-9A6B-4EF6-B54C-5896F1A74952}|Day3\\Day3.vcxproj|D:\\Work\\C\\Day3\\Day3\\pointer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7C2242CD-9A6B-4EF6-B54C-5896F1A74952}|Day3\\Day3.vcxproj|solutionrelative:Day3\\pointer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C2242CD-9A6B-4EF6-B54C-5896F1A74952}|Day3\\Day3.vcxproj|D:\\Work\\C\\Day3\\Day3\\ary.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7C2242CD-9A6B-4EF6-B54C-5896F1A74952}|Day3\\Day3.vcxproj|solutionrelative:Day3\\ary.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C2242CD-9A6B-4EF6-B54C-5896F1A74952}|Day3\\Day3.vcxproj|D:\\Work\\C\\Day3\\Day3\\multiplication.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7C2242CD-9A6B-4EF6-B54C-5896F1A74952}|Day3\\Day3.vcxproj|solutionrelative:Day3\\multiplication.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C2242CD-9A6B-4EF6-B54C-5896F1A74952}|Day3\\Day3.vcxproj|D:\\Work\\C\\Day3\\Day3\\arr2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7C2242CD-9A6B-4EF6-B54C-5896F1A74952}|Day3\\Day3.vcxproj|solutionrelative:Day3\\arr2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "pointer.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day3\\Day3\\pointer.c",
+              "RelativeDocumentMoniker": "Day3\\pointer.c",
+              "ToolTip": "D:\\Work\\C\\Day3\\Day3\\pointer.c",
+              "RelativeToolTip": "Day3\\pointer.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-07T02:05:57.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "multiplication.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day3\\Day3\\multiplication.c",
+              "RelativeDocumentMoniker": "Day3\\multiplication.c",
+              "ToolTip": "D:\\Work\\C\\Day3\\Day3\\multiplication.c",
+              "RelativeToolTip": "Day3\\multiplication.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-07T01:36:19.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "arr2.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day3\\Day3\\arr2.c",
+              "RelativeDocumentMoniker": "Day3\\arr2.c",
+              "ToolTip": "D:\\Work\\C\\Day3\\Day3\\arr2.c",
+              "RelativeToolTip": "Day3\\arr2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-07T01:24:13.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ary.c",
               "DocumentMoniker": "D:\\Work\\C\\Day3\\Day3\\ary.c",
               "RelativeDocumentMoniker": "Day3\\ary.c",
               "ToolTip": "D:\\Work\\C\\Day3\\Day3\\ary.c",
               "RelativeToolTip": "Day3\\ary.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-08-07T01:08:28.46Z",
               "EditorCaption": ""
