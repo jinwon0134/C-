@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\C\\Day1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E67059C-27FE-40B5-A22A-996A6FFD0BE6}|Day1\\Day1.vcxproj|D:\\Work\\C\\Day1\\Day1\\val4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E67059C-27FE-40B5-A22A-996A6FFD0BE6}|Day1\\Day1.vcxproj|solutionrelative:Day1\\val4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E67059C-27FE-40B5-A22A-996A6FFD0BE6}|Day1\\Day1.vcxproj|D:\\Work\\C\\Day1\\Day1\\val3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E67059C-27FE-40B5-A22A-996A6FFD0BE6}|Day1\\Day1.vcxproj|solutionrelative:Day1\\val3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E67059C-27FE-40B5-A22A-996A6FFD0BE6}|Day1\\Day1.vcxproj|D:\\Work\\C\\Day1\\Day1\\val2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E67059C-27FE-40B5-A22A-996A6FFD0BE6}|Day1\\Day1.vcxproj|solutionrelative:Day1\\val2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E67059C-27FE-40B5-A22A-996A6FFD0BE6}|Day1\\Day1.vcxproj|D:\\Work\\C\\Day1\\Day1\\val.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E67059C-27FE-40B5-A22A-996A6FFD0BE6}|Day1\\Day1.vcxproj|solutionrelative:Day1\\val.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E67059C-27FE-40B5-A22A-996A6FFD0BE6}|Day1\\Day1.vcxproj|D:\\Work\\C\\Day1\\Day1\\Day1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E67059C-27FE-40B5-A22A-996A6FFD0BE6}|Day1\\Day1.vcxproj|solutionrelative:Day1\\Day1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "val4.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day1\\Day1\\val4.c",
+              "RelativeDocumentMoniker": "Day1\\val4.c",
+              "ToolTip": "D:\\Work\\C\\Day1\\Day1\\val4.c",
+              "RelativeToolTip": "Day1\\val4.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-05T07:15:04.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "val3.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day1\\Day1\\val3.c",
+              "RelativeDocumentMoniker": "Day1\\val3.c",
+              "ToolTip": "D:\\Work\\C\\Day1\\Day1\\val3.c",
+              "RelativeToolTip": "Day1\\val3.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-05T07:03:36.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Day1.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day1\\Day1\\Day1.c",
+              "RelativeDocumentMoniker": "Day1\\Day1.c",
+              "ToolTip": "D:\\Work\\C\\Day1\\Day1\\Day1.c",
+              "RelativeToolTip": "Day1\\Day1.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-05T06:07:22.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "val2.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day1\\Day1\\val2.c",
+              "RelativeDocumentMoniker": "Day1\\val2.c",
+              "ToolTip": "D:\\Work\\C\\Day1\\Day1\\val2.c",
+              "RelativeToolTip": "Day1\\val2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-05T06:07:07.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "val.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day1\\Day1\\val.c",
+              "RelativeDocumentMoniker": "Day1\\val.c",
+              "ToolTip": "D:\\Work\\C\\Day1\\Day1\\val.c",
+              "RelativeToolTip": "Day1\\val.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-05T05:32:45.821Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
