@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\C\\Day4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\macro2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\macro2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\macro1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\macro1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\macro.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\macro.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\enum.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\enum.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\array1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\array1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\Day4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\Day4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\struct.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\struct.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\struct1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\struct1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\struct2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\struct2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\struct3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\struct3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\struct4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\struct4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\struct5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\struct5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\struct6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\struct6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\student.main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\student.main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|D:\\Work\\C\\Day4\\Day4\\union.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{18CCCB52-3CB6-4EBA-8062-FD4DFCF39B1E}|Day4\\Day4.vcxproj|solutionrelative:Day4\\union.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "macro2.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\macro2.c",
+              "RelativeDocumentMoniker": "Day4\\macro2.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\macro2.c",
+              "RelativeToolTip": "Day4\\macro2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T07:23:02.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "macro1.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\macro1.c",
+              "RelativeDocumentMoniker": "Day4\\macro1.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\macro1.c",
+              "RelativeToolTip": "Day4\\macro1.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T07:12:39.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "macro.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\macro.c",
+              "RelativeDocumentMoniker": "Day4\\macro.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\macro.c",
+              "RelativeToolTip": "Day4\\macro.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T07:05:15.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "student.main.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\student.main.c",
+              "RelativeDocumentMoniker": "Day4\\student.main.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\student.main.c",
+              "RelativeToolTip": "Day4\\student.main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T06:36:00.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "student.h",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\student.h",
+              "RelativeDocumentMoniker": "Day4\\student.h",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\student.h",
+              "RelativeToolTip": "Day4\\student.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-08T06:34:08.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "enum.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\enum.c",
+              "RelativeDocumentMoniker": "Day4\\enum.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\enum.c",
+              "RelativeToolTip": "Day4\\enum.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T06:16:22.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "struct6.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\struct6.c",
+              "RelativeDocumentMoniker": "Day4\\struct6.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\struct6.c",
+              "RelativeToolTip": "Day4\\struct6.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T05:28:29.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "struct5.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\struct5.c",
+              "RelativeDocumentMoniker": "Day4\\struct5.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\struct5.c",
+              "RelativeToolTip": "Day4\\struct5.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T04:45:36.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "struct4.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\struct4.c",
+              "RelativeDocumentMoniker": "Day4\\struct4.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\struct4.c",
+              "RelativeToolTip": "Day4\\struct4.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T04:36:38.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "struct3.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\struct3.c",
+              "RelativeDocumentMoniker": "Day4\\struct3.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\struct3.c",
+              "RelativeToolTip": "Day4\\struct3.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T04:20:46.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "struct2.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\struct2.c",
+              "RelativeDocumentMoniker": "Day4\\struct2.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\struct2.c",
+              "RelativeToolTip": "Day4\\struct2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T02:24:58.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "struct1.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\struct1.c",
+              "RelativeDocumentMoniker": "Day4\\struct1.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\struct1.c",
+              "RelativeToolTip": "Day4\\struct1.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T01:36:30.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "struct.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\struct.c",
+              "RelativeDocumentMoniker": "Day4\\struct.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\struct.c",
+              "RelativeToolTip": "Day4\\struct.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T01:16:55.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Day4.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\Day4.c",
+              "RelativeDocumentMoniker": "Day4\\Day4.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\Day4.c",
+              "RelativeToolTip": "Day4\\Day4.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T00:45:04.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "array1.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\array1.c",
+              "RelativeDocumentMoniker": "Day4\\array1.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\array1.c",
+              "RelativeToolTip": "Day4\\array1.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T00:48:16.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "union.c",
+              "DocumentMoniker": "D:\\Work\\C\\Day4\\Day4\\union.c",
+              "RelativeDocumentMoniker": "Day4\\union.c",
+              "ToolTip": "D:\\Work\\C\\Day4\\Day4\\union.c",
+              "RelativeToolTip": "Day4\\union.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-08T06:06:29.351Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
