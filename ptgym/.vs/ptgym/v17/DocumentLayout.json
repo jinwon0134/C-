@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\C\\ptgym\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD77B78-EFA1-4156-AA4A-6712AE814773}|ptgym\\ptgym.vcxproj|D:\\Work\\C\\ptgym\\ptgym\\ptgym.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BD77B78-EFA1-4156-AA4A-6712AE814773}|ptgym\\ptgym.vcxproj|solutionrelative:ptgym\\ptgym.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ptgym.c",
+              "DocumentMoniker": "D:\\Work\\C\\ptgym\\ptgym\\ptgym.c",
+              "RelativeDocumentMoniker": "ptgym\\ptgym.c",
+              "ToolTip": "D:\\Work\\C\\ptgym\\ptgym\\ptgym.c",
+              "RelativeToolTip": "ptgym\\ptgym.c",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-11T00:11:46.852Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
