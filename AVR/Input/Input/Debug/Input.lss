@@ -1,0 +1,366 @@
+
+Input.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         0000000a  00800100  000001de  00000252  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         000001de  00000000  00000000  00000074  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .comment      00000030  00000000  00000000  0000025c  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  0000028c  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000020  00000000  00000000  000002cc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   00000990  00000000  00000000  000002ec  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00000843  00000000  00000000  00000c7c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   000002e4  00000000  00000000  000014bf  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000024  00000000  00000000  000017a4  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    00000428  00000000  00000000  000017c8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    0000012c  00000000  00000000  00001bf0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000010  00000000  00000000  00001d1c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	45 c0       	rjmp	.+138    	; 0x8c <__ctors_end>
+   2:	00 00       	nop
+   4:	58 c0       	rjmp	.+176    	; 0xb6 <__bad_interrupt>
+   6:	00 00       	nop
+   8:	56 c0       	rjmp	.+172    	; 0xb6 <__bad_interrupt>
+   a:	00 00       	nop
+   c:	54 c0       	rjmp	.+168    	; 0xb6 <__bad_interrupt>
+   e:	00 00       	nop
+  10:	52 c0       	rjmp	.+164    	; 0xb6 <__bad_interrupt>
+  12:	00 00       	nop
+  14:	50 c0       	rjmp	.+160    	; 0xb6 <__bad_interrupt>
+  16:	00 00       	nop
+  18:	4e c0       	rjmp	.+156    	; 0xb6 <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	4c c0       	rjmp	.+152    	; 0xb6 <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	4a c0       	rjmp	.+148    	; 0xb6 <__bad_interrupt>
+  22:	00 00       	nop
+  24:	48 c0       	rjmp	.+144    	; 0xb6 <__bad_interrupt>
+  26:	00 00       	nop
+  28:	46 c0       	rjmp	.+140    	; 0xb6 <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	44 c0       	rjmp	.+136    	; 0xb6 <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	42 c0       	rjmp	.+132    	; 0xb6 <__bad_interrupt>
+  32:	00 00       	nop
+  34:	40 c0       	rjmp	.+128    	; 0xb6 <__bad_interrupt>
+  36:	00 00       	nop
+  38:	3e c0       	rjmp	.+124    	; 0xb6 <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	3c c0       	rjmp	.+120    	; 0xb6 <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	3a c0       	rjmp	.+116    	; 0xb6 <__bad_interrupt>
+  42:	00 00       	nop
+  44:	38 c0       	rjmp	.+112    	; 0xb6 <__bad_interrupt>
+  46:	00 00       	nop
+  48:	36 c0       	rjmp	.+108    	; 0xb6 <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	34 c0       	rjmp	.+104    	; 0xb6 <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	32 c0       	rjmp	.+100    	; 0xb6 <__bad_interrupt>
+  52:	00 00       	nop
+  54:	30 c0       	rjmp	.+96     	; 0xb6 <__bad_interrupt>
+  56:	00 00       	nop
+  58:	2e c0       	rjmp	.+92     	; 0xb6 <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	2c c0       	rjmp	.+88     	; 0xb6 <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	2a c0       	rjmp	.+84     	; 0xb6 <__bad_interrupt>
+  62:	00 00       	nop
+  64:	28 c0       	rjmp	.+80     	; 0xb6 <__bad_interrupt>
+  66:	00 00       	nop
+  68:	26 c0       	rjmp	.+76     	; 0xb6 <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	24 c0       	rjmp	.+72     	; 0xb6 <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	22 c0       	rjmp	.+68     	; 0xb6 <__bad_interrupt>
+  72:	00 00       	nop
+  74:	20 c0       	rjmp	.+64     	; 0xb6 <__bad_interrupt>
+  76:	00 00       	nop
+  78:	1e c0       	rjmp	.+60     	; 0xb6 <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	1c c0       	rjmp	.+56     	; 0xb6 <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	1a c0       	rjmp	.+52     	; 0xb6 <__bad_interrupt>
+  82:	00 00       	nop
+  84:	18 c0       	rjmp	.+48     	; 0xb6 <__bad_interrupt>
+  86:	00 00       	nop
+  88:	16 c0       	rjmp	.+44     	; 0xb6 <__bad_interrupt>
+	...
+
+0000008c <__ctors_end>:
+  8c:	11 24       	eor	r1, r1
+  8e:	1f be       	out	0x3f, r1	; 63
+  90:	cf ef       	ldi	r28, 0xFF	; 255
+  92:	d0 e1       	ldi	r29, 0x10	; 16
+  94:	de bf       	out	0x3e, r29	; 62
+  96:	cd bf       	out	0x3d, r28	; 61
+
+00000098 <__do_copy_data>:
+  98:	11 e0       	ldi	r17, 0x01	; 1
+  9a:	a0 e0       	ldi	r26, 0x00	; 0
+  9c:	b1 e0       	ldi	r27, 0x01	; 1
+  9e:	ee ed       	ldi	r30, 0xDE	; 222
+  a0:	f1 e0       	ldi	r31, 0x01	; 1
+  a2:	00 e0       	ldi	r16, 0x00	; 0
+  a4:	0b bf       	out	0x3b, r16	; 59
+  a6:	02 c0       	rjmp	.+4      	; 0xac <__do_copy_data+0x14>
+  a8:	07 90       	elpm	r0, Z+
+  aa:	0d 92       	st	X+, r0
+  ac:	aa 30       	cpi	r26, 0x0A	; 10
+  ae:	b1 07       	cpc	r27, r17
+  b0:	d9 f7       	brne	.-10     	; 0xa8 <__do_copy_data+0x10>
+  b2:	02 d0       	rcall	.+4      	; 0xb8 <main>
+  b4:	92 c0       	rjmp	.+292    	; 0x1da <_exit>
+
+000000b6 <__bad_interrupt>:
+  b6:	a4 cf       	rjmp	.-184    	; 0x0 <__vectors>
+
+000000b8 <main>:
+
+//3.
+
+int main(void)
+{
+	DDRE = 0xFF; // 7세그먼트 출력
+  b8:	8f ef       	ldi	r24, 0xFF	; 255
+  ba:	82 b9       	out	0x02, r24	; 2
+	DDRD = 0x00; // 버튼 입력
+  bc:	11 ba       	out	0x11, r1	; 17
+	DDRG = 0xFF; // 자리 선택
+  be:	80 93 64 00 	sts	0x0064, r24	; 0x800064 <__TEXT_REGION_LENGTH__+0x7e0064>
+
+	PORTD = 0x00; // 내부 풀업 OFF
+  c2:	12 ba       	out	0x12, r1	; 18
+
+	unsigned int number = 0; // 0~999까지 숫자 저장
+	unsigned char prev_button_state = 0;
+  c4:	80 e0       	ldi	r24, 0x00	; 0
+	DDRD = 0x00; // 버튼 입력
+	DDRG = 0xFF; // 자리 선택
+
+	PORTD = 0x00; // 내부 풀업 OFF
+
+	unsigned int number = 0; // 0~999까지 숫자 저장
+  c6:	c0 e0       	ldi	r28, 0x00	; 0
+  c8:	d0 e0       	ldi	r29, 0x00	; 0
+	unsigned char prev_button_state = 0;
+
+	while(1)
+	{
+		unsigned char buttons = PIND;
+  ca:	f0 b2       	in	r15, 0x10	; 16
+
+		// 버튼 8 (0x80) 누르면 초기화
+		if(buttons & 0x80)
+  cc:	ff 20       	and	r15, r15
+  ce:	54 f0       	brlt	.+20     	; 0xe4 <main+0x2c>
+		{
+			number = 0;
+		}
+		// 버튼 1 (0x01) 누르고, 이전 상태와 달라졌을 때만 증가 (간단한 누름 감지)
+		else if((buttons & 0x01) && !(prev_button_state & 0x01))
+  d0:	f0 fe       	sbrs	r15, 0
+  d2:	0d c0       	rjmp	.+26     	; 0xee <main+0x36>
+  d4:	80 fd       	sbrc	r24, 0
+  d6:	0b c0       	rjmp	.+22     	; 0xee <main+0x36>
+		{
+			if(number < 999) number++;
+  d8:	c7 3e       	cpi	r28, 0xE7	; 231
+  da:	83 e0       	ldi	r24, 0x03	; 3
+  dc:	d8 07       	cpc	r29, r24
+  de:	28 f4       	brcc	.+10     	; 0xea <main+0x32>
+  e0:	21 96       	adiw	r28, 0x01	; 1
+  e2:	05 c0       	rjmp	.+10     	; 0xee <main+0x36>
+		unsigned char buttons = PIND;
+
+		// 버튼 8 (0x80) 누르면 초기화
+		if(buttons & 0x80)
+		{
+			number = 0;
+  e4:	c0 e0       	ldi	r28, 0x00	; 0
+  e6:	d0 e0       	ldi	r29, 0x00	; 0
+  e8:	02 c0       	rjmp	.+4      	; 0xee <main+0x36>
+		}
+		// 버튼 1 (0x01) 누르고, 이전 상태와 달라졌을 때만 증가 (간단한 누름 감지)
+		else if((buttons & 0x01) && !(prev_button_state & 0x01))
+		{
+			if(number < 999) number++;
+			else number = 0; // 999 넘으면 다시 0으로
+  ea:	c0 e0       	ldi	r28, 0x00	; 0
+  ec:	d0 e0       	ldi	r29, 0x00	; 0
+		}
+
+		prev_button_state = buttons;
+
+		// 숫자 분리
+		int hundreds = number / 100;
+  ee:	9e 01       	movw	r18, r28
+  f0:	36 95       	lsr	r19
+  f2:	27 95       	ror	r18
+  f4:	36 95       	lsr	r19
+  f6:	27 95       	ror	r18
+  f8:	ab e7       	ldi	r26, 0x7B	; 123
+  fa:	b4 e1       	ldi	r27, 0x14	; 20
+  fc:	5f d0       	rcall	.+190    	; 0x1bc <__umulhisi3>
+  fe:	8c 01       	movw	r16, r24
+ 100:	16 95       	lsr	r17
+ 102:	07 95       	ror	r16
+		int tens = (number / 10) % 10;
+ 104:	9e 01       	movw	r18, r28
+ 106:	ad ec       	ldi	r26, 0xCD	; 205
+ 108:	bc ec       	ldi	r27, 0xCC	; 204
+ 10a:	58 d0       	rcall	.+176    	; 0x1bc <__umulhisi3>
+ 10c:	fc 01       	movw	r30, r24
+ 10e:	f6 95       	lsr	r31
+ 110:	e7 95       	ror	r30
+ 112:	f6 95       	lsr	r31
+ 114:	e7 95       	ror	r30
+ 116:	f6 95       	lsr	r31
+ 118:	e7 95       	ror	r30
+ 11a:	9f 01       	movw	r18, r30
+ 11c:	4f d0       	rcall	.+158    	; 0x1bc <__umulhisi3>
+ 11e:	ac 01       	movw	r20, r24
+ 120:	56 95       	lsr	r21
+ 122:	47 95       	ror	r20
+ 124:	56 95       	lsr	r21
+ 126:	47 95       	ror	r20
+ 128:	56 95       	lsr	r21
+ 12a:	47 95       	ror	r20
+ 12c:	ca 01       	movw	r24, r20
+ 12e:	88 0f       	add	r24, r24
+ 130:	99 1f       	adc	r25, r25
+ 132:	44 0f       	add	r20, r20
+ 134:	55 1f       	adc	r21, r21
+ 136:	44 0f       	add	r20, r20
+ 138:	55 1f       	adc	r21, r21
+ 13a:	44 0f       	add	r20, r20
+ 13c:	55 1f       	adc	r21, r21
+ 13e:	48 0f       	add	r20, r24
+ 140:	59 1f       	adc	r21, r25
+ 142:	cf 01       	movw	r24, r30
+ 144:	84 1b       	sub	r24, r20
+ 146:	95 0b       	sbc	r25, r21
+ 148:	ac 01       	movw	r20, r24
+		int ones = number % 10;
+ 14a:	cf 01       	movw	r24, r30
+ 14c:	88 0f       	add	r24, r24
+ 14e:	99 1f       	adc	r25, r25
+ 150:	ee 0f       	add	r30, r30
+ 152:	ff 1f       	adc	r31, r31
+ 154:	ee 0f       	add	r30, r30
+ 156:	ff 1f       	adc	r31, r31
+ 158:	ee 0f       	add	r30, r30
+ 15a:	ff 1f       	adc	r31, r31
+ 15c:	e8 0f       	add	r30, r24
+ 15e:	f9 1f       	adc	r31, r25
+ 160:	ce 01       	movw	r24, r28
+ 162:	8e 1b       	sub	r24, r30
+ 164:	9f 0b       	sbc	r25, r31
+ 166:	fc 01       	movw	r30, r24
+
+		// 멀티플렉싱으로 3자리 표시
+		// 1의 자리
+		PORTE = font[ones];
+ 168:	e0 50       	subi	r30, 0x00	; 0
+ 16a:	ff 4f       	sbci	r31, 0xFF	; 255
+ 16c:	80 81       	ld	r24, Z
+ 16e:	83 b9       	out	0x03, r24	; 3
+		PORTG =  0x0B;
+ 170:	e5 e6       	ldi	r30, 0x65	; 101
+ 172:	f0 e0       	ldi	r31, 0x00	; 0
+ 174:	8b e0       	ldi	r24, 0x0B	; 11
+ 176:	80 83       	st	Z, r24
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 178:	8f ed       	ldi	r24, 0xDF	; 223
+ 17a:	9e e2       	ldi	r25, 0x2E	; 46
+ 17c:	01 97       	sbiw	r24, 0x01	; 1
+ 17e:	f1 f7       	brne	.-4      	; 0x17c <main+0xc4>
+ 180:	00 c0       	rjmp	.+0      	; 0x182 <main+0xca>
+ 182:	00 00       	nop
+		_delay_ms(3);
+
+		// 10의 자리
+		PORTE = font[tens];
+ 184:	da 01       	movw	r26, r20
+ 186:	a0 50       	subi	r26, 0x00	; 0
+ 188:	bf 4f       	sbci	r27, 0xFF	; 255
+ 18a:	8c 91       	ld	r24, X
+ 18c:	83 b9       	out	0x03, r24	; 3
+		PORTG = 0x0D;
+ 18e:	8d e0       	ldi	r24, 0x0D	; 13
+ 190:	80 83       	st	Z, r24
+ 192:	8f ed       	ldi	r24, 0xDF	; 223
+ 194:	9e e2       	ldi	r25, 0x2E	; 46
+ 196:	01 97       	sbiw	r24, 0x01	; 1
+ 198:	f1 f7       	brne	.-4      	; 0x196 <main+0xde>
+ 19a:	00 c0       	rjmp	.+0      	; 0x19c <main+0xe4>
+ 19c:	00 00       	nop
+		_delay_ms(3);
+
+		// 100의 자리
+		PORTE = font[hundreds];
+ 19e:	d8 01       	movw	r26, r16
+ 1a0:	a0 50       	subi	r26, 0x00	; 0
+ 1a2:	bf 4f       	sbci	r27, 0xFF	; 255
+ 1a4:	8c 91       	ld	r24, X
+ 1a6:	83 b9       	out	0x03, r24	; 3
+		PORTG = 0x0E;
+ 1a8:	8e e0       	ldi	r24, 0x0E	; 14
+ 1aa:	80 83       	st	Z, r24
+ 1ac:	8f ed       	ldi	r24, 0xDF	; 223
+ 1ae:	9e e2       	ldi	r25, 0x2E	; 46
+ 1b0:	01 97       	sbiw	r24, 0x01	; 1
+ 1b2:	f1 f7       	brne	.-4      	; 0x1b0 <main+0xf8>
+ 1b4:	00 c0       	rjmp	.+0      	; 0x1b6 <main+0xfe>
+ 1b6:	00 00       	nop
+		{
+			if(number < 999) number++;
+			else number = 0; // 999 넘으면 다시 0으로
+		}
+
+		prev_button_state = buttons;
+ 1b8:	8f 2d       	mov	r24, r15
+ 1ba:	87 cf       	rjmp	.-242    	; 0xca <main+0x12>
+
+000001bc <__umulhisi3>:
+ 1bc:	a2 9f       	mul	r26, r18
+ 1be:	b0 01       	movw	r22, r0
+ 1c0:	b3 9f       	mul	r27, r19
+ 1c2:	c0 01       	movw	r24, r0
+ 1c4:	a3 9f       	mul	r26, r19
+ 1c6:	70 0d       	add	r23, r0
+ 1c8:	81 1d       	adc	r24, r1
+ 1ca:	11 24       	eor	r1, r1
+ 1cc:	91 1d       	adc	r25, r1
+ 1ce:	b2 9f       	mul	r27, r18
+ 1d0:	70 0d       	add	r23, r0
+ 1d2:	81 1d       	adc	r24, r1
+ 1d4:	11 24       	eor	r1, r1
+ 1d6:	91 1d       	adc	r25, r1
+ 1d8:	08 95       	ret
+
+000001da <_exit>:
+ 1da:	f8 94       	cli
+
+000001dc <__stop_program>:
+ 1dc:	ff cf       	rjmp	.-2      	; 0x1dc <__stop_program>
