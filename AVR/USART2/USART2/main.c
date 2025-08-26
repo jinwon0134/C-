@@ -49,7 +49,8 @@ int main(void)
 {
     Init_USART();
     DDRB = 0xFF;   // PORTB 전체 출력 (LED 8개)
-
+	unsigned char str[] = "Hello world!! \r\n";
+	USART_str(str);
     while (1)
     {
         unsigned char data = USART0_rx(); // 시리얼 입력

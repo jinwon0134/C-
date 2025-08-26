@@ -1,0 +1,493 @@
+
+Keypad.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000014  00800100  00000288  0000031c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         00000288  00000000  00000000  00000094  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .bss          00000004  00800114  00800114  00000330  2**0
+                  ALLOC
+  3 .comment      00000030  00000000  00000000  00000330  2**0
+                  CONTENTS, READONLY
+  4 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  00000360  2**2
+                  CONTENTS, READONLY
+  5 .debug_aranges 00000088  00000000  00000000  000003a0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_info   00000fc2  00000000  00000000  00000428  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 00000a2c  00000000  00000000  000013ea  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_line   00000552  00000000  00000000  00001e16  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_frame  000000f8  00000000  00000000  00002368  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_str    00000496  00000000  00000000  00002460  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    00000534  00000000  00000000  000028f6  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 00000068  00000000  00000000  00002e2a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	45 c0       	rjmp	.+138    	; 0x8c <__ctors_end>
+   2:	00 00       	nop
+   4:	60 c0       	rjmp	.+192    	; 0xc6 <__bad_interrupt>
+   6:	00 00       	nop
+   8:	5e c0       	rjmp	.+188    	; 0xc6 <__bad_interrupt>
+   a:	00 00       	nop
+   c:	5c c0       	rjmp	.+184    	; 0xc6 <__bad_interrupt>
+   e:	00 00       	nop
+  10:	5a c0       	rjmp	.+180    	; 0xc6 <__bad_interrupt>
+  12:	00 00       	nop
+  14:	58 c0       	rjmp	.+176    	; 0xc6 <__bad_interrupt>
+  16:	00 00       	nop
+  18:	56 c0       	rjmp	.+172    	; 0xc6 <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	54 c0       	rjmp	.+168    	; 0xc6 <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	52 c0       	rjmp	.+164    	; 0xc6 <__bad_interrupt>
+  22:	00 00       	nop
+  24:	50 c0       	rjmp	.+160    	; 0xc6 <__bad_interrupt>
+  26:	00 00       	nop
+  28:	4e c0       	rjmp	.+156    	; 0xc6 <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	4c c0       	rjmp	.+152    	; 0xc6 <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	4a c0       	rjmp	.+148    	; 0xc6 <__bad_interrupt>
+  32:	00 00       	nop
+  34:	48 c0       	rjmp	.+144    	; 0xc6 <__bad_interrupt>
+  36:	00 00       	nop
+  38:	46 c0       	rjmp	.+140    	; 0xc6 <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	44 c0       	rjmp	.+136    	; 0xc6 <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	42 c0       	rjmp	.+132    	; 0xc6 <__bad_interrupt>
+  42:	00 00       	nop
+  44:	40 c0       	rjmp	.+128    	; 0xc6 <__bad_interrupt>
+  46:	00 00       	nop
+  48:	3e c0       	rjmp	.+124    	; 0xc6 <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	3c c0       	rjmp	.+120    	; 0xc6 <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	3a c0       	rjmp	.+116    	; 0xc6 <__bad_interrupt>
+  52:	00 00       	nop
+  54:	38 c0       	rjmp	.+112    	; 0xc6 <__bad_interrupt>
+  56:	00 00       	nop
+  58:	36 c0       	rjmp	.+108    	; 0xc6 <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	34 c0       	rjmp	.+104    	; 0xc6 <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	32 c0       	rjmp	.+100    	; 0xc6 <__bad_interrupt>
+  62:	00 00       	nop
+  64:	30 c0       	rjmp	.+96     	; 0xc6 <__bad_interrupt>
+  66:	00 00       	nop
+  68:	2e c0       	rjmp	.+92     	; 0xc6 <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	2c c0       	rjmp	.+88     	; 0xc6 <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	2a c0       	rjmp	.+84     	; 0xc6 <__bad_interrupt>
+  72:	00 00       	nop
+  74:	28 c0       	rjmp	.+80     	; 0xc6 <__bad_interrupt>
+  76:	00 00       	nop
+  78:	26 c0       	rjmp	.+76     	; 0xc6 <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	24 c0       	rjmp	.+72     	; 0xc6 <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	22 c0       	rjmp	.+68     	; 0xc6 <__bad_interrupt>
+  82:	00 00       	nop
+  84:	20 c0       	rjmp	.+64     	; 0xc6 <__bad_interrupt>
+  86:	00 00       	nop
+  88:	1e c0       	rjmp	.+60     	; 0xc6 <__bad_interrupt>
+	...
+
+0000008c <__ctors_end>:
+  8c:	11 24       	eor	r1, r1
+  8e:	1f be       	out	0x3f, r1	; 63
+  90:	cf ef       	ldi	r28, 0xFF	; 255
+  92:	d0 e1       	ldi	r29, 0x10	; 16
+  94:	de bf       	out	0x3e, r29	; 62
+  96:	cd bf       	out	0x3d, r28	; 61
+
+00000098 <__do_copy_data>:
+  98:	11 e0       	ldi	r17, 0x01	; 1
+  9a:	a0 e0       	ldi	r26, 0x00	; 0
+  9c:	b1 e0       	ldi	r27, 0x01	; 1
+  9e:	e8 e8       	ldi	r30, 0x88	; 136
+  a0:	f2 e0       	ldi	r31, 0x02	; 2
+  a2:	00 e0       	ldi	r16, 0x00	; 0
+  a4:	0b bf       	out	0x3b, r16	; 59
+  a6:	02 c0       	rjmp	.+4      	; 0xac <__do_copy_data+0x14>
+  a8:	07 90       	elpm	r0, Z+
+  aa:	0d 92       	st	X+, r0
+  ac:	a4 31       	cpi	r26, 0x14	; 20
+  ae:	b1 07       	cpc	r27, r17
+  b0:	d9 f7       	brne	.-10     	; 0xa8 <__do_copy_data+0x10>
+
+000000b2 <__do_clear_bss>:
+  b2:	21 e0       	ldi	r18, 0x01	; 1
+  b4:	a4 e1       	ldi	r26, 0x14	; 20
+  b6:	b1 e0       	ldi	r27, 0x01	; 1
+  b8:	01 c0       	rjmp	.+2      	; 0xbc <.do_clear_bss_start>
+
+000000ba <.do_clear_bss_loop>:
+  ba:	1d 92       	st	X+, r1
+
+000000bc <.do_clear_bss_start>:
+  bc:	a8 31       	cpi	r26, 0x18	; 24
+  be:	b2 07       	cpc	r27, r18
+  c0:	e1 f7       	brne	.-8      	; 0xba <.do_clear_bss_loop>
+  c2:	d8 d0       	rcall	.+432    	; 0x274 <main>
+  c4:	df c0       	rjmp	.+446    	; 0x284 <_exit>
+
+000000c6 <__bad_interrupt>:
+  c6:	9c cf       	rjmp	.-200    	; 0x0 <__vectors>
+
+000000c8 <Port_Init>:
+void LCD_STR(Byte *str){
+	while(*str !=0){
+		LCD_CHAR(*str);
+		str++;
+	}
+}
+  c8:	8f ef       	ldi	r24, 0xFF	; 255
+  ca:	87 bb       	out	0x17, r24	; 23
+  cc:	8f e0       	ldi	r24, 0x0F	; 15
+  ce:	80 93 64 00 	sts	0x0064, r24	; 0x800064 <__TEXT_REGION_LENGTH__+0x7e0064>
+  d2:	08 95       	ret
+
+000000d4 <LCD_Data>:
+  d4:	e5 e6       	ldi	r30, 0x65	; 101
+  d6:	f0 e0       	ldi	r31, 0x00	; 0
+  d8:	90 81       	ld	r25, Z
+  da:	91 60       	ori	r25, 0x01	; 1
+  dc:	90 83       	st	Z, r25
+  de:	90 81       	ld	r25, Z
+  e0:	9d 7f       	andi	r25, 0xFD	; 253
+  e2:	90 83       	st	Z, r25
+  e4:	90 81       	ld	r25, Z
+  e6:	94 60       	ori	r25, 0x04	; 4
+  e8:	90 83       	st	Z, r25
+  ea:	96 ef       	ldi	r25, 0xF6	; 246
+  ec:	9a 95       	dec	r25
+  ee:	f1 f7       	brne	.-4      	; 0xec <LCD_Data+0x18>
+  f0:	88 bb       	out	0x18, r24	; 24
+  f2:	86 ef       	ldi	r24, 0xF6	; 246
+  f4:	8a 95       	dec	r24
+  f6:	f1 f7       	brne	.-4      	; 0xf4 <LCD_Data+0x20>
+  f8:	80 81       	ld	r24, Z
+  fa:	8b 7f       	andi	r24, 0xFB	; 251
+  fc:	80 83       	st	Z, r24
+  fe:	08 95       	ret
+
+00000100 <LCD_Comm>:
+ 100:	e5 e6       	ldi	r30, 0x65	; 101
+ 102:	f0 e0       	ldi	r31, 0x00	; 0
+ 104:	90 81       	ld	r25, Z
+ 106:	9e 7f       	andi	r25, 0xFE	; 254
+ 108:	90 83       	st	Z, r25
+ 10a:	90 81       	ld	r25, Z
+ 10c:	9d 7f       	andi	r25, 0xFD	; 253
+ 10e:	90 83       	st	Z, r25
+ 110:	90 81       	ld	r25, Z
+ 112:	94 60       	ori	r25, 0x04	; 4
+ 114:	90 83       	st	Z, r25
+ 116:	96 ef       	ldi	r25, 0xF6	; 246
+ 118:	9a 95       	dec	r25
+ 11a:	f1 f7       	brne	.-4      	; 0x118 <LCD_Comm+0x18>
+ 11c:	88 bb       	out	0x18, r24	; 24
+ 11e:	86 ef       	ldi	r24, 0xF6	; 246
+ 120:	8a 95       	dec	r24
+ 122:	f1 f7       	brne	.-4      	; 0x120 <LCD_Comm+0x20>
+ 124:	80 81       	ld	r24, Z
+ 126:	8b 7f       	andi	r24, 0xFB	; 251
+ 128:	80 83       	st	Z, r24
+ 12a:	08 95       	ret
+
+0000012c <LCD_CHAR>:
+ 12c:	d3 df       	rcall	.-90     	; 0xd4 <LCD_Data>
+ 12e:	86 e6       	ldi	r24, 0x66	; 102
+ 130:	9e e0       	ldi	r25, 0x0E	; 14
+ 132:	01 97       	sbiw	r24, 0x01	; 1
+ 134:	f1 f7       	brne	.-4      	; 0x132 <LCD_CHAR+0x6>
+ 136:	00 00       	nop
+ 138:	08 95       	ret
+
+0000013a <LCD_pos>:
+
+void LCD_pos(unsigned char col, unsigned char row){
+	LCD_Comm(0x80 | (row+col*0x40));
+ 13a:	90 e4       	ldi	r25, 0x40	; 64
+ 13c:	89 9f       	mul	r24, r25
+ 13e:	60 0d       	add	r22, r0
+ 140:	11 24       	eor	r1, r1
+ 142:	86 2f       	mov	r24, r22
+ 144:	80 68       	ori	r24, 0x80	; 128
+ 146:	dc cf       	rjmp	.-72     	; 0x100 <LCD_Comm>
+ 148:	08 95       	ret
+
+0000014a <LCD_Clear>:
+}
+
+void LCD_Clear(void){
+	LCD_Comm(0x01);
+ 14a:	81 e0       	ldi	r24, 0x01	; 1
+ 14c:	d9 df       	rcall	.-78     	; 0x100 <LCD_Comm>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 14e:	8c ec       	ldi	r24, 0xCC	; 204
+ 150:	9c e1       	ldi	r25, 0x1C	; 28
+ 152:	01 97       	sbiw	r24, 0x01	; 1
+ 154:	f1 f7       	brne	.-4      	; 0x152 <LCD_Clear+0x8>
+ 156:	00 c0       	rjmp	.+0      	; 0x158 <LCD_Clear+0xe>
+ 158:	00 00       	nop
+ 15a:	08 95       	ret
+
+0000015c <LCD_Init>:
+	_delay_ms(2);
+}
+
+void LCD_Init(void){
+	LCD_Comm(0x38);
+ 15c:	88 e3       	ldi	r24, 0x38	; 56
+ 15e:	d0 df       	rcall	.-96     	; 0x100 <LCD_Comm>
+ 160:	8c ec       	ldi	r24, 0xCC	; 204
+ 162:	9c e1       	ldi	r25, 0x1C	; 28
+ 164:	01 97       	sbiw	r24, 0x01	; 1
+ 166:	f1 f7       	brne	.-4      	; 0x164 <LCD_Init+0x8>
+ 168:	00 c0       	rjmp	.+0      	; 0x16a <LCD_Init+0xe>
+ 16a:	00 00       	nop
+	_delay_ms(2);
+	LCD_Comm(0x38);
+ 16c:	88 e3       	ldi	r24, 0x38	; 56
+ 16e:	c8 df       	rcall	.-112    	; 0x100 <LCD_Comm>
+ 170:	8c ec       	ldi	r24, 0xCC	; 204
+ 172:	9c e1       	ldi	r25, 0x1C	; 28
+ 174:	01 97       	sbiw	r24, 0x01	; 1
+ 176:	f1 f7       	brne	.-4      	; 0x174 <LCD_Init+0x18>
+ 178:	00 c0       	rjmp	.+0      	; 0x17a <LCD_Init+0x1e>
+	_delay_ms(2);
+	LCD_Comm(0x38);
+ 17a:	00 00       	nop
+ 17c:	88 e3       	ldi	r24, 0x38	; 56
+ 17e:	c0 df       	rcall	.-128    	; 0x100 <LCD_Comm>
+ 180:	8c ec       	ldi	r24, 0xCC	; 204
+ 182:	9c e1       	ldi	r25, 0x1C	; 28
+ 184:	01 97       	sbiw	r24, 0x01	; 1
+ 186:	f1 f7       	brne	.-4      	; 0x184 <LCD_Init+0x28>
+ 188:	00 c0       	rjmp	.+0      	; 0x18a <LCD_Init+0x2e>
+	_delay_ms(2);
+	LCD_Comm(0x0e);
+ 18a:	00 00       	nop
+ 18c:	8e e0       	ldi	r24, 0x0E	; 14
+ 18e:	b8 df       	rcall	.-144    	; 0x100 <LCD_Comm>
+ 190:	8c ec       	ldi	r24, 0xCC	; 204
+ 192:	9c e1       	ldi	r25, 0x1C	; 28
+ 194:	01 97       	sbiw	r24, 0x01	; 1
+ 196:	f1 f7       	brne	.-4      	; 0x194 <LCD_Init+0x38>
+ 198:	00 c0       	rjmp	.+0      	; 0x19a <LCD_Init+0x3e>
+	_delay_ms(2);
+	LCD_Comm(0x06);
+ 19a:	00 00       	nop
+ 19c:	86 e0       	ldi	r24, 0x06	; 6
+ 19e:	b0 df       	rcall	.-160    	; 0x100 <LCD_Comm>
+ 1a0:	8c ec       	ldi	r24, 0xCC	; 204
+ 1a2:	9c e1       	ldi	r25, 0x1C	; 28
+ 1a4:	01 97       	sbiw	r24, 0x01	; 1
+ 1a6:	f1 f7       	brne	.-4      	; 0x1a4 <LCD_Init+0x48>
+ 1a8:	00 c0       	rjmp	.+0      	; 0x1aa <LCD_Init+0x4e>
+	_delay_ms(2);
+	LCD_Clear();
+ 1aa:	00 00       	nop
+ 1ac:	ce cf       	rjmp	.-100    	; 0x14a <LCD_Clear>
+ 1ae:	08 95       	ret
+
+000001b0 <keypad_Init>:
+//------------------------------
+// 키패드 초기화 함수
+//------------------------------
+void keypad_Init(){
+	// 상위 4비트(PD4~PD7) 출력, 하위 4비트(PD0~PD3) 입력
+	DDRD = 0xF0;
+ 1b0:	80 ef       	ldi	r24, 0xF0	; 240
+ 1b2:	81 bb       	out	0x11, r24	; 17
+ 1b4:	08 95       	ret
+
+000001b6 <scanKeypad>:
+
+//------------------------------
+// 키패드 스캔 함수
+//------------------------------
+void scanKeypad(void)
+{
+ 1b6:	0f 93       	push	r16
+ 1b8:	1f 93       	push	r17
+ 1ba:	cf 93       	push	r28
+ 1bc:	df 93       	push	r29
+	for(int r = 0; r < ROWS; r++)   // 모든 행을 순회
+ 1be:	00 e0       	ldi	r16, 0x00	; 0
+ 1c0:	10 e0       	ldi	r17, 0x00	; 0
+ 1c2:	46 c0       	rjmp	.+140    	; 0x250 <scanKeypad+0x9a>
+	{
+		PORTD = rowPins[r];  // 현재 행을 LOW로 출력
+ 1c4:	f8 01       	movw	r30, r16
+ 1c6:	e1 5f       	subi	r30, 0xF1	; 241
+ 1c8:	fe 4f       	sbci	r31, 0xFE	; 254
+ 1ca:	80 81       	ld	r24, Z
+ 1cc:	82 bb       	out	0x12, r24	; 18
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 1ce:	26 ef       	ldi	r18, 0xF6	; 246
+ 1d0:	2a 95       	dec	r18
+ 1d2:	f1 f7       	brne	.-4      	; 0x1d0 <scanKeypad+0x1a>
+		_delay_us(50);       // 신호 안정화 대기
+
+		for(int c = 0; c < COLS; c++)  // 모든 열 확인
+ 1d4:	c0 e0       	ldi	r28, 0x00	; 0
+ 1d6:	d0 e0       	ldi	r29, 0x00	; 0
+ 1d8:	36 c0       	rjmp	.+108    	; 0x246 <scanKeypad+0x90>
+		{
+			// 해당 열이 HIGH이면 해당 키가 눌린 상태
+			if((PIND & colPins[c]) == colPins[c])
+ 1da:	80 b3       	in	r24, 0x10	; 16
+ 1dc:	fe 01       	movw	r30, r28
+ 1de:	e4 5f       	subi	r30, 0xF4	; 244
+ 1e0:	fe 4f       	sbci	r31, 0xFE	; 254
+ 1e2:	90 81       	ld	r25, Z
+ 1e4:	89 23       	and	r24, r25
+ 1e6:	98 13       	cpse	r25, r24
+ 1e8:	2d c0       	rjmp	.+90     	; 0x244 <scanKeypad+0x8e>
+			{
+				LCD_CHAR(keyValues[r][c]);  // LCD에 키 값 출력
+ 1ea:	f8 01       	movw	r30, r16
+ 1ec:	ee 0f       	add	r30, r30
+ 1ee:	ff 1f       	adc	r31, r31
+ 1f0:	e0 0f       	add	r30, r16
+ 1f2:	f1 1f       	adc	r31, r17
+ 1f4:	e0 50       	subi	r30, 0x00	; 0
+ 1f6:	ff 4f       	sbci	r31, 0xFF	; 255
+ 1f8:	ec 0f       	add	r30, r28
+ 1fa:	fd 1f       	adc	r31, r29
+ 1fc:	80 81       	ld	r24, Z
+ 1fe:	96 df       	rcall	.-212    	; 0x12c <LCD_CHAR>
+				lcd_col++;                   // 다음 출력 위치로 이동
+ 200:	80 91 16 01 	lds	r24, 0x0116	; 0x800116 <lcd_col>
+ 204:	90 91 17 01 	lds	r25, 0x0117	; 0x800117 <lcd_col+0x1>
+ 208:	01 96       	adiw	r24, 0x01	; 1
+ 20a:	90 93 17 01 	sts	0x0117, r25	; 0x800117 <lcd_col+0x1>
+ 20e:	80 93 16 01 	sts	0x0116, r24	; 0x800116 <lcd_col>
+
+				// 한 줄이 가득 찼으면 다음 줄로 이동
+				if(lcd_col >= LCD_COLS)
+ 212:	40 97       	sbiw	r24, 0x10	; 16
+ 214:	bc f0       	brlt	.+46     	; 0x244 <scanKeypad+0x8e>
+				{
+					lcd_col = 0;                     // 열 초기화
+ 216:	10 92 17 01 	sts	0x0117, r1	; 0x800117 <lcd_col+0x1>
+ 21a:	10 92 16 01 	sts	0x0116, r1	; 0x800116 <lcd_col>
+					lcd_row = (lcd_row + 1) % LCD_ROWS; // 다음 줄로 이동, 2줄이면 순환
+ 21e:	80 91 14 01 	lds	r24, 0x0114	; 0x800114 <__data_end>
+ 222:	90 91 15 01 	lds	r25, 0x0115	; 0x800115 <__data_end+0x1>
+ 226:	01 96       	adiw	r24, 0x01	; 1
+ 228:	81 70       	andi	r24, 0x01	; 1
+ 22a:	90 78       	andi	r25, 0x80	; 128
+ 22c:	99 23       	and	r25, r25
+ 22e:	24 f4       	brge	.+8      	; 0x238 <scanKeypad+0x82>
+ 230:	01 97       	sbiw	r24, 0x01	; 1
+ 232:	8e 6f       	ori	r24, 0xFE	; 254
+ 234:	9f 6f       	ori	r25, 0xFF	; 255
+ 236:	01 96       	adiw	r24, 0x01	; 1
+ 238:	80 93 14 01 	sts	0x0114, r24	; 0x800114 <__data_end>
+ 23c:	90 93 15 01 	sts	0x0115, r25	; 0x800115 <__data_end+0x1>
+					LCD_pos(lcd_row, 0);            // LCD 커서 위치 갱신
+ 240:	60 e0       	ldi	r22, 0x00	; 0
+ 242:	7b df       	rcall	.-266    	; 0x13a <LCD_pos>
+	for(int r = 0; r < ROWS; r++)   // 모든 행을 순회
+	{
+		PORTD = rowPins[r];  // 현재 행을 LOW로 출력
+		_delay_us(50);       // 신호 안정화 대기
+
+		for(int c = 0; c < COLS; c++)  // 모든 열 확인
+ 244:	21 96       	adiw	r28, 0x01	; 1
+ 246:	c3 30       	cpi	r28, 0x03	; 3
+ 248:	d1 05       	cpc	r29, r1
+ 24a:	3c f2       	brlt	.-114    	; 0x1da <scanKeypad+0x24>
+//------------------------------
+// 키패드 스캔 함수
+//------------------------------
+void scanKeypad(void)
+{
+	for(int r = 0; r < ROWS; r++)   // 모든 행을 순회
+ 24c:	0f 5f       	subi	r16, 0xFF	; 255
+ 24e:	1f 4f       	sbci	r17, 0xFF	; 255
+ 250:	04 30       	cpi	r16, 0x04	; 4
+ 252:	11 05       	cpc	r17, r1
+ 254:	0c f4       	brge	.+2      	; 0x258 <scanKeypad+0xa2>
+ 256:	b6 cf       	rjmp	.-148    	; 0x1c4 <scanKeypad+0xe>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 258:	8f ef       	ldi	r24, 0xFF	; 255
+ 25a:	9f eb       	ldi	r25, 0xBF	; 191
+ 25c:	26 e0       	ldi	r18, 0x06	; 6
+ 25e:	81 50       	subi	r24, 0x01	; 1
+ 260:	90 40       	sbci	r25, 0x00	; 0
+ 262:	20 40       	sbci	r18, 0x00	; 0
+ 264:	e1 f7       	brne	.-8      	; 0x25e <scanKeypad+0xa8>
+ 266:	00 c0       	rjmp	.+0      	; 0x268 <scanKeypad+0xb2>
+ 268:	00 00       	nop
+				}
+			}
+		}
+	}
+	_delay_ms(150); // 디바운스 + 중복 입력 방지
+}
+ 26a:	df 91       	pop	r29
+ 26c:	cf 91       	pop	r28
+ 26e:	1f 91       	pop	r17
+ 270:	0f 91       	pop	r16
+ 272:	08 95       	ret
+
+00000274 <main>:
+//------------------------------
+// 메인 함수
+//------------------------------
+int main(void)
+{
+	Port_Init();      // LCD 포트 초기화
+ 274:	29 df       	rcall	.-430    	; 0xc8 <Port_Init>
+	LCD_Init();       // LCD 초기화
+ 276:	72 df       	rcall	.-284    	; 0x15c <LCD_Init>
+	keypad_Init();    // 키패드 초기화
+ 278:	9b df       	rcall	.-202    	; 0x1b0 <keypad_Init>
+
+	LCD_pos(0, 0);   // LCD 커서 첫 줄 시작
+ 27a:	60 e0       	ldi	r22, 0x00	; 0
+ 27c:	80 e0       	ldi	r24, 0x00	; 0
+ 27e:	5d df       	rcall	.-326    	; 0x13a <LCD_pos>
+
+	while(1)
+	{
+		scanKeypad();  // 키패드 스캔 + LCD 출력 반복
+ 280:	9a df       	rcall	.-204    	; 0x1b6 <scanKeypad>
+ 282:	fe cf       	rjmp	.-4      	; 0x280 <main+0xc>
+
+00000284 <_exit>:
+ 284:	f8 94       	cli
+
+00000286 <__stop_program>:
+ 286:	ff cf       	rjmp	.-2      	; 0x286 <__stop_program>
